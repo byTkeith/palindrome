@@ -32,7 +32,7 @@ public class Palindrome {
             char[] charOfLine=lowerCaseEachLine.toCharArray();//all values in a line converted to char
             int i;
             for(i=0;i<charOfLine.length;i++){//loops through all char values
-                if(charOfLine[i]!=' '&charOfLine[i]!=','&charOfLine[i]!='.'&charOfLine[i]!=':'){
+                if(charOfLine[i]!=' '&charOfLine[i]!=','&charOfLine[i]!='.'&charOfLine[i]!=':'){//condition for alphanaumeric values that are not to be added
                     clearCharValues.add(charOfLine[i]);
 
                 }
