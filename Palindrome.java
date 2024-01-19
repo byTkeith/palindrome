@@ -24,7 +24,9 @@ public class Palindrome {
                 scanner.close();//closed the file after completing the reading process
             }
         }
-        
+        /*
+         * loops through the lines read from file
+         */
         for(String eachLine: lineOfStringFromFile){
             String lowerCaseEachLine=eachLine.toLowerCase();
             char[] charOfLine=lowerCaseEachLine.toCharArray();//all values in a line converted to char
