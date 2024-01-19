@@ -28,7 +28,7 @@ public class Palindrome {
          * loops through the lines read from file
          */
         for(String eachLine: lineOfStringFromFile){
-            String lowerCaseEachLine=eachLine.toLowerCase();
+            String lowerCaseEachLine=eachLine.toLowerCase();//convert all  the values to lowercase
             char[] charOfLine=lowerCaseEachLine.toCharArray();//all values in a line converted to char
             int i;
             for(i=0;i<charOfLine.length;i++){
