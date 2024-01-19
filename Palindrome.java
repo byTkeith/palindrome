@@ -33,15 +33,15 @@ public class Palindrome {
             int i;
             for(i=0;i<charOfLine.length;i++){//loops through all char values
                 if(charOfLine[i]!=' '&charOfLine[i]!=','&charOfLine[i]!='.'&charOfLine[i]!=':'){//condition for alphanaumeric values that are not to be added
-                    clearCharValues.add(charOfLine[i]);
+                    clearCharValues.add(charOfLine[i]);//add into the clear section
 
                 }
                 
                 
             }
-            System.out.println("the new list is as follows "+clearCharValues); 
+            //System.out.println("the new list is as follows "+clearCharValues); 
             char emptyArray=' ';
-            int matches=0;
+            int matches=0;//intiate a match count t see if all the values checked are same on each
             int arrayLength=clearCharValues.size();
             for(int a=0;a<clearCharValues.size();a++){
                 //for(int z=clearCharValues.size();z>0;z--){
