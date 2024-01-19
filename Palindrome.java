@@ -12,7 +12,7 @@ public class Palindrome {
         String filename=scanner.nextLine();
         try{
             File file= new File(filename);
-            scanner =new Scanner(file);
+            scanner =new Scanner(file);//used the scanner to read through the file
             while(scanner.hasNextLine()){
                 lineOfStringFromFile.add(scanner.nextLine());
 
