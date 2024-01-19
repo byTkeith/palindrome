@@ -31,7 +31,7 @@ public class Palindrome {
             String lowerCaseEachLine=eachLine.toLowerCase();//convert all  the values to lowercase
             char[] charOfLine=lowerCaseEachLine.toCharArray();//all values in a line converted to char
             int i;
-            for(i=0;i<charOfLine.length;i++){
+            for(i=0;i<charOfLine.length;i++){//loops through all char values
                 if(charOfLine[i]!=' '&charOfLine[i]!=','&charOfLine[i]!='.'&charOfLine[i]!=':'){
                     clearCharValues.add(charOfLine[i]);
 
