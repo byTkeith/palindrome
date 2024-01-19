@@ -5,8 +5,8 @@ import java.util.*;
 
 public class Palindrome {
     public static void main(String[] args) {
-        ArrayList<String> lineOfStringFromFile= new ArrayList<>();
-        ArrayList<Character> clearCharValues=new ArrayList<>();
+        ArrayList<String> lineOfStringFromFile= new ArrayList<>();//takes the string values read from the file
+        ArrayList<Character> clearCharValues=new ArrayList<>();// the char values without alphanaumeric characters after being removed
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter the name of the file:");
         String filename=scanner.nextLine();
