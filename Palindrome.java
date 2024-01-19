@@ -14,7 +14,7 @@ public class Palindrome {
             File file= new File(filename);
             scanner =new Scanner(file);//used the scanner to read through the file
             while(scanner.hasNextLine()){
-                lineOfStringFromFile.add(scanner.nextLine());
+                lineOfStringFromFile.add(scanner.nextLine());//so long as the file has lines continue reading
 
             }
         }catch(FileNotFoundException e){
