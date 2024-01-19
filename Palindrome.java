@@ -17,7 +17,7 @@ public class Palindrome {
                 lineOfStringFromFile.add(scanner.nextLine());//so long as the file has lines continue reading
 
             }
-        }catch(FileNotFoundException e){
+        }catch(FileNotFoundException e){//used catch for error detection, if the file does not exist
             System.out.println("File not found ASKIES!!");
         }finally{
             if(scanner!=null){
