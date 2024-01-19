@@ -45,7 +45,7 @@ public class Palindrome {
             int arrayLength=clearCharValues.size();
             for(int a=0;a<clearCharValues.size();a++){
                 //for(int z=clearCharValues.size();z>0;z--){
-                if(clearCharValues.get(a)==clearCharValues.get(arrayLength-a-1)){
+                if(clearCharValues.get(a)==clearCharValues.get(arrayLength-a-1)){//compares the first and the last
                     matches++;
 
                 }
