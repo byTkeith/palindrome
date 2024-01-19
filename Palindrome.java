@@ -21,7 +21,7 @@ public class Palindrome {
             System.out.println("File not found ASKIES!!");
         }finally{
             if(scanner!=null){
-                scanner.close();
+                scanner.close();//closed the file after completing the reading process
             }
         }
         
