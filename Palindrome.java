@@ -54,7 +54,7 @@ public class Palindrome {
 
                 //}
 
-            }if(matches==clearCharValues.size()){
+            }if(matches==clearCharValues.size()){//if matches match the length/size of array its a palindrome
                 System.out.println("The given string is a palindrome.");
             }
             else{System.out.println("The above given string is not a palindrome");}
